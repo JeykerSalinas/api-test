@@ -6,10 +6,12 @@ import cors from "cors";
 const app = express();
 
 const corsOptions = {
-	origin: '*',
-	optionsSuccessStatus: 200
+  origin: "*",
+  optionsSuccessStatus: 200,
 };
 
+const PORT = process.env.PORT || 8000;
+const HOST = "0.0.0.0";
 app.use(cors());
 
 app.get("/populations", async (req, res) => {
@@ -58,4 +60,4 @@ app.get("/table", async (req, res) => {
   }
 });
 
-app.listen(8000, () => console.log("me estoy ejecutando en el puerto 8000"));
+app.listen(PORT, HOST, () => console.log(`Server running on port ${PORT}`));
