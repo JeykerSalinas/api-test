@@ -14,6 +14,17 @@ const corsOptions = {
 const PORT = process.env.PORT || 8000;
 const HOST = "0.0.0.0";
 app.use(cors());
+app.use(express.json());
+
+app.post("/recommendations", async (req, res) => {
+  try {
+    if (req.body.categories === "6231aeb73073724b9bd88b7d") {
+      res.status(200).send(populations);
+    } else res.status(404).send("Id not found");
+  } catch (error) {
+    res.status(500).send("Upss error");
+  }
+});
 
 app.get("/populations", async (req, res) => {
   try {
