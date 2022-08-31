@@ -1,6 +1,7 @@
 import express from "express";
 import { interventions } from "./interventions.js";
 import { populations } from "./populations.js";
+import { recommendations } from "./recommendations";
 import cors from "cors";
 
 const app = express();
@@ -25,6 +26,21 @@ app.get("/populations", async (req, res) => {
 app.get("/interventions", async (req, res) => {
   try {
     res.status(200).send(interventions);
+  } catch (error) {
+    res.status(500).send("Upss error");
+  }
+});
+
+app.get("/interventions", async (req, res) => {
+  try {
+    res.status(200).send(interventions);
+  } catch (error) {
+    res.status(500).send("Upss error");
+  }
+});
+app.get("/recommendations", async (req, res) => {
+  try {
+    res.status(200).send(recommendations);
   } catch (error) {
     res.status(500).send("Upss error");
   }
