@@ -1,7 +1,7 @@
 import express from "express";
 import { interventions } from "./interventions.js";
 import { populations } from "./populations.js";
-import { recommendations } from "./recommendations";
+import { recommendations } from "./recommendations.js";
 import cors from "cors";
 
 const app = express();

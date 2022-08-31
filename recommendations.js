@@ -1,4 +1,4 @@
-const recommendations = {
+export const recommendations = {
   total: 97,
   items: [
     {
