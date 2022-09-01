@@ -20,7 +20,7 @@ app.use(express.json());
 app.post("/recommendations", async (req, res) => {
   try {
     if (req.body) {
-      res.status(200).send(populations);
+      res.status(200).send(recommendations);
     } else res.status(404).send("Id not found");
   } catch (error) {
     res.status(500).send("Upss error");
@@ -43,14 +43,6 @@ app.get("/interventions", async (req, res) => {
   }
 });
 
-
-// app.get("/recommendations", async (req, res) => {
-//   try {
-//     res.status(200).send(recommendations);
-//   } catch (error) {
-//     res.status(500).send("Upss error");
-//   }
-// });
 app.get("/table", async (req, res) => {
   try {
     res.status(200).send(table);
