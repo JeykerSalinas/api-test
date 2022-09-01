@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.post("/recommendations", async (req, res) => {
   try {
-    if (req.body.categories === "6231aeb73073724b9bd88b7d") {
+    if (req.body) {
       res.status(200).send(populations);
     } else res.status(404).send("Id not found");
   } catch (error) {
