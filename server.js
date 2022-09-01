@@ -2,6 +2,7 @@ import express from "express";
 import { interventions } from "./interventions.js";
 import { populations } from "./populations.js";
 import { recommendations } from "./recommendations.js";
+import { table } from "./table.js";
 import cors from "cors";
 
 const app = express();
@@ -42,22 +43,23 @@ app.get("/interventions", async (req, res) => {
   }
 });
 
-app.get("/interventions", async (req, res) => {
+
+// app.get("/recommendations", async (req, res) => {
+//   try {
+//     res.status(200).send(recommendations);
+//   } catch (error) {
+//     res.status(500).send("Upss error");
+//   }
+// });
+app.get("/table", async (req, res) => {
   try {
-    res.status(200).send(interventions);
-  } catch (error) {
-    res.status(500).send("Upss error");
-  }
-});
-app.get("/recommendations", async (req, res) => {
-  try {
-    res.status(200).send(recommendations);
+    res.status(200).send(table);
   } catch (error) {
     res.status(500).send("Upss error");
   }
 });
 
-app.get("/table", async (req, res) => {
+app.get("/test-table", async (req, res) => {
   try {
     let table = {};
 
