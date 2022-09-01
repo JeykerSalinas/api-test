@@ -171,51 +171,6 @@ export const table = {
     },
   },
   "5d168ccfdaeedf0aaa55dbc0": {
-    "5f4108573552581c11d84164": {
-      recomendations: 8,
-      strength: {
-        conditional: {
-          for: 1,
-          against: 1,
-        },
-        strong: {
-          for: 0,
-          against: 0,
-        },
-      },
-      studies: 4,
-      isof: "54eb9fcc2b38677807178978",
-    },
-    "5efa806869c00e463870e00f": {
-      recomendations: 4,
-      strength: {
-        conditional: {
-          for: 1,
-          against: 0,
-        },
-        strong: {
-          for: 2,
-          against: 0,
-        },
-      },
-      studies: 16,
-      isof: "54eb9fcc2b38677807178978",
-    },
-    "62ebe66d8d66160008f0e3cb": {
-      recomendations: 4,
-      strength: {
-        conditional: {
-          for: 2,
-          against: 1,
-        },
-        strong: {
-          for: 1,
-          against: 1,
-        },
-      },
-      studies: 19,
-      isof: "54eb9fcc2b38677807178978",
-    },
     "5f180a1c3552583e3bc9e8be": {
       recomendations: 1,
       strength: {
