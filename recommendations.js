@@ -940,6 +940,96 @@ export const recommendations = {
         },
       ],
     },
+    {
+      abstract_en:
+        "A single high dose (10 mg/kg) of liposomal amphotericin B with 14 days of flucytosine (100 mg/kg per day divided into four doses per day) and fluconazole (1200 mg/daily for adults; 12 mg/kg per day for children and adolescents up to a maximum of 800 mg daily) should be used as the preferred induction regimen for treating people with cryptococcal meningitis.",
+      abstract_es:
+        "A single high dose (10 mg/kg) of liposomal amphotericin B with 14 days of flucytosine (100 mg/kg per day divided into four doses per day) and fluconazole (1200 mg/daily for adults; 12 mg/kg per day for children and adolescents up to a maximum of 800 mg daily) should be used as the preferred induction regimen for treating people with cryptococcal meningitis.",
+      notes_en: "",
+      notes_es: "",
+      title_en:
+        "Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV [14]",
+      title_es:
+        "Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV [14]",
+      translation_status_en: "blocked",
+      translation_status_es: "copy",
+      population_en: "People with cryptococcal meningitis...Induction therapy",
+      population_es: "",
+      intervention_en:
+        "A single high dose (10 mg/kg) of liposomal amphotericin B with 14 days of flucytosine (100 mg/kg per day divided into four doses per day) and fluconazole (1200 mg/daily for adults; 12 mg/kg per day for children and adolescents up to a maximum of 800 mg daily)",
+      intervention_es: "",
+      year: 2022,
+      id: "1cdb1bd636a48916f2f05b67c47e88c5343ae8d9",
+      links: [
+        {
+          link: "https://apps.who.int/iris/handle/10665/357088",
+          name: "Guideline full-text",
+        },
+      ],
+      ext_ids: [],
+      keywords: [],
+      threads: [],
+      versions: [
+        {
+          id: "1cdb1bd636a48916f2f05b67c47e88c5343ae8d9",
+          latest: true,
+        },
+        {
+          id: "69bcff8710ed2bd223d9ee42b13d2ae510f4ba19",
+          latest: false,
+        },
+      ],
+      rec_coe: "MODERATE",
+      rec_direction: "For the intervention",
+      rec_type: "strong",
+      guidelines: [
+        {
+          abstract_en: "",
+          abstract_es: "",
+          title_en:
+            "Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV.",
+          title_es:
+            "Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV.",
+          translation_status_en: "blocked",
+          translation_status_es: "copy",
+          year: 2022,
+          id: "50f43549497c32e828987a33a62be20c460f31dd",
+          author: ["World Health Organization"],
+          links: [
+            {
+              link: "https://apps.who.int/iris/handle/10665/357088",
+              name: "WHO IRIS",
+            },
+          ],
+          ext_ids: [
+            {
+              source: "whoiris",
+              id: "357088",
+              norm_id: "357088",
+            },
+          ],
+          recommendations: [],
+          ext_links: [
+            {
+              link: "https://apps.who.int/iris/handle/10665/357088",
+              name: "WHO IRIS",
+            },
+          ],
+          focus: [
+            "public_health",
+            "health_policy_systems",
+            "clinical_practice",
+          ],
+          users: [
+            "public_health_authorities",
+            "healthcare_workers",
+            "health_facility_administrators",
+          ],
+          organization_type: "intergov_not_profit",
+          rec_bs: "guideline",
+        },
+      ],
+    },
   ],
   dsl_query: {
     query: {
